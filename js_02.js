@@ -1,6 +1,7 @@
 //Number:age
 let a = prompt('Скільки Вам років?');
 b = 2023 - a;
+alert (b);
 
 //Number:temperature
 let a = prompt('Яка зараз температура у Цельсіях?');
@@ -15,6 +16,7 @@ c = Math.floor(a/b);
 const rate = 36.95; //гривень коштує 1 долар
 let a = prompt('Введіть скільки ви хочете обміняти гривень');
 b = (a/rate).toFixed(2);
+alert (b);
 
 //Number: RGB
 const red = prompt('Введіть перший колір');
